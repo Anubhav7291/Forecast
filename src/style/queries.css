@@ -1,0 +1,24 @@
+@media screen and (max-width:500px){
+.container-fluid{
+   margin-left: 50px;
+    
+}
+.card-background{
+    width: 220%;
+  
+}
+.card-background2{
+    width: 220%;
+}
+.search{
+    width: 200%;
+    margin-left: 10px;
+  
+}
+.search-btn{
+    margin-left: 110px;
+    width: 50%;
+   
+}
+
+}
