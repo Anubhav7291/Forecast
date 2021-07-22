@@ -19,7 +19,7 @@ const getCoords=async ()=>{
     try{
     const coords=await geolocation();
     let {latitude:lat,longitude:lon}=coords.coords;
-    const response=await axios.get(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=4503811c206df3e95177b13dae8d0921`);
+    const response=await axios.get(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=04aeae538db33b7e54a69ff867eafcfe`);
     const weatherData=response.data;
     setResponse(weatherData);
     setCity(weatherData.name)
